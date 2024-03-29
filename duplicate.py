@@ -21,7 +21,6 @@ def main():
         else:
             print(f"No duplicate data found in column '{column_name}'.")
 
-       
         duplicate_data_in_rows = duplicate_data_in_row(df)
         if not duplicate_data_in_rows.empty:
             print("\nDuplicate data in rows:")
